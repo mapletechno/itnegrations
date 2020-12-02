@@ -341,7 +341,7 @@ $json = '{
   "integration_id": '.$this->integration_id.',
   "lock_order_when_paid": "false"
 }';
-$host = "https://accept.paymobsolutions.com/api/acceptance/payment_keys?token='.$tokenx.'";
+$host = "https://accept.paymobsolutions.com/api/acceptance/payment_keys?token=$tokenx";
 //$host = "https://accept.paymobsolutions.com/api/acceptance/payment_keys";
 
 //$json = json_decode($json);
