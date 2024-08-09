@@ -197,8 +197,8 @@ $json = '{
 
 //$payloadName = array("client_id"=>$client, "client_secret"=>$secret,"code"=>$code);
 $additionalHeaders = array(
-//	"Host: tip-of-the-day.myshopify.com",
-  //  "X-Shopify-Access-Token: b0bb404533ebd7f54167c59f8c8ca666",
+//	"Host: xx",
+  //  "X-Shopify-Access-Token: xx",
     "Content-Type: application/json"
   );
 
@@ -227,8 +227,6 @@ $tokenx = $return1->token;
  */
 
 $additionalHeaders = array(
-//	"Host: tip-of-the-day.myshopify.com",
-  //  "X-Shopify-Access-Token: b0bb404533ebd7f54167c59f8c8ca666",
     "Content-Type: application/json",
     "Authorization: Bearer $tokenx"
   );
